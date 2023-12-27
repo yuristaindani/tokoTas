@@ -22,13 +22,7 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
 
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
--->
     </head>
     
     <body>
@@ -45,51 +39,7 @@ https://templatemo.com/tm-571-hexashop
     
     
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png">
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#men">Men's</a></li>
-                            <li class="scroll-to-section"><a href="#women">Women's</a></li>
-                            <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
-                            <li class="submenu">
-                                <a href="javascript:;">Pages</a>
-                                <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="products.html">Products</a></li>
-                                    <li><a href="single-product.html">Single Product</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu">
-                                <a href="javascript:;">Features</a>
-                                <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
-                                    <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Template Page 4</a></li>
-                                </ul>
-                            </li>
-                            <li class="scroll-to-section"><a href="#explore">Explore</a></li>
-                        </ul>        
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+    @include('User.header')
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Banner Area Start ***** -->
@@ -117,19 +67,19 @@ https://templatemo.com/tm-571-hexashop
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>Women</h4>
-                                            <span>Best Clothes For Women</span>
+                                            <h4>Gucci</h4>
+                                            <span>Best Items For Gucci</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Women</h4>
+                                                <h4>Gucci</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-01.jpg">
+                                        <img src="productimage/GUCCI 3.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -137,19 +87,19 @@ https://templatemo.com/tm-571-hexashop
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>Men</h4>
-                                            <span>Best Clothes For Men</span>
+                                            <h4>Prada</h4>
+                                            <span>Best Items For Prada</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Men</h4>
+                                                <h4>Prada</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-02.jpg">
+                                        <img src="productimage/PRADA SLING BAG.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -157,19 +107,19 @@ https://templatemo.com/tm-571-hexashop
                                 <div class="right-first-image">
                                     <div class="thumb">
                                         <div class="inner-content">
-                                            <h4>Kids</h4>
-                                            <span>Best Clothes For Kids</span>
+                                            <h4>Chanel</h4>
+                                            <span>Best Items For Chanel</span>
                                         </div>
                                         <div class="hover-content">
                                             <div class="inner">
-                                                <h4>Kids</h4>
+                                                <h4>Chanel</h4>
                                                 <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.</p>
                                                 <div class="main-border-button">
                                                     <a href="#">Discover More</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-03.jpg">
+                                        <img src="productimage/CHANEL FLORAL.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +139,7 @@ https://templatemo.com/tm-571-hexashop
                                                 </div>
                                             </div>
                                         </div>
-                                        <img src="assets/images/baner-right-image-04.jpg">
+                                        <img src="productimage/GUCCII 6.jpg">
                                     </div>
                                 </div>
                             </div>
@@ -201,14 +151,16 @@ https://templatemo.com/tm-571-hexashop
     </div>
     <!-- ***** Main Banner Area End ***** -->
 
+
     <!-- ***** Men Area Starts ***** -->
+
     <section class="section" id="men">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Men's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <h2>SHOULDER BAG</h2>
+                        <span>Stylish shoulder bag, a must-have fashion item for everyone!</span>
                     </div>
                 </div>
             </div>
@@ -227,11 +179,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-01.jpg" alt="">
+                                    <img src="productimage/GUCCII 6.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <h4>GUCCI JACKIE FLORA</h4>
+                                    <span>$320.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -250,11 +202,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-02.jpg" alt="">
+                                    <img src="productimage/GUCCI 1.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Air Force 1 X</h4>
-                                    <span>$90.00</span>
+                                    <h4>GUCCI HORSEBIT</h4>
+                                    <span>$410.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -273,11 +225,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-03.jpg" alt="">
+                                    <img src="productimage/GUCCI 2.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Love Nana ‘20</h4>
-                                    <span>$150.00</span>
+                                    <h4>GUCCI BAMBOO</h4>
+                                    <span>$420.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -296,11 +248,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/men-01.jpg" alt="">
+                                    <img src="productimage/GUCCI 3.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <h4>GUCCI BAGUETTE </h4>
+                                    <span>$530.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -316,16 +268,18 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
+
     <!-- ***** Men Area Ends ***** -->
 
     <!-- ***** Women Area Starts ***** -->
+
     <section class="section" id="women">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Women's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <h2>TOTE BAG</h2>
+                        <span>Stylish tote bag, a must-have fashion item for everyone!</span>
                     </div>
                 </div>
             </div>
@@ -344,11 +298,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-01.jpg" alt="">
+                                    <img src="productimage/CHANEL PINK BAG.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>New Green Jacket</h4>
-                                    <span>$75.00</span>
+                                    <h4>CHANEL PINK BAG</h4>
+                                    <span>$410.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -367,11 +321,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-02.jpg" alt="">
+                                    <img src="productimage/CHANEL TOTEBAG.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Classic Dress</h4>
-                                    <span>$45.00</span>
+                                    <h4>CHANEL TOTE BAG</h4>
+                                    <span>$420.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -390,11 +344,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-03.jpg" alt="">
+                                    <img src="productimage/PRADA TOTE BAG.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Spring Collection</h4>
-                                    <span>$130.00</span>
+                                    <h4>PRADA TOTE BAG</h4>
+                                    <span>$530.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -413,11 +367,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/women-01.jpg" alt="">
+                                    <img src="productimage/BALMAIN TOTE BAG.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <h4>BALMAIN TOTE BAG</h4>
+                                    <span>$320.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -433,16 +387,18 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
+
     <!-- ***** Women Area Ends ***** -->
 
     <!-- ***** Kids Area Starts ***** -->
+
     <section class="section" id="kids">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section-heading">
-                        <h2>Kid's Latest</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <h2>SLING BAG</h2>
+                        <span>Stylish sling bag, a must-have fashion item for everyone!</span>
                     </div>
                 </div>
             </div>
@@ -461,11 +417,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-01.jpg" alt="">
+                                    <img src="productimage/PRADA SLING BAG.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>School Collection</h4>
-                                    <span>$80.00</span>
+                                    <h4>PRADA SLING BAG</h4>
+                                    <span>$410.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -484,11 +440,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-02.jpg" alt="">
+                                    <img src="productimage/chanel cruise.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Summer Cap</h4>
-                                    <span>$12.00</span>
+                                    <h4>CHANEL CRUISE</h4>
+                                    <span>$365.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -507,11 +463,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-03.jpg" alt="">
+                                    <img src="productimage/SLINGBAG.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Classic Kid</h4>
-                                    <span>$30.00</span>
+                                    <h4>CHANEL CROSSBAG</h4>
+                                    <span>$330.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -530,11 +486,11 @@ https://templatemo.com/tm-571-hexashop
                                             <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
-                                    <img src="assets/images/kid-01.jpg" alt="">
+                                    <img src="productimage/CHANEL FLORAL.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <h4>Classic Spring</h4>
-                                    <span>$120.00</span>
+                                    <h4>CHANEL FLORAL BAG</h4>
+                                    <span>$320.00</span>
                                     <ul class="stars">
                                         <li><i class="fa fa-star"></i></li>
                                         <li><i class="fa fa-star"></i></li>
@@ -550,6 +506,7 @@ https://templatemo.com/tm-571-hexashop
             </div>
         </div>
     </section>
+
     <!-- ***** Kids Area Ends ***** -->
 
     <!-- ***** Explore Area Starts ***** -->
@@ -559,12 +516,11 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-6">
                     <div class="left-content">
                         <h2>Explore Our Products</h2>
-                        <span>You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</span>
+                        <span>Experience the beauty of self-expression through fashion, embracing every moment as an opportunity to showcase your individuality and unique style. With our diverse range of offerings, discover the joy of curating a wardrobe that truly embodies your essence and personality.</span>
                         <div class="quote">
-                            <i class="fa fa-quote-left"></i><p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+                            <i class="fa fa-quote-left"></i><p>Fashion is a way to say who you are without having to speak.</p>
                         </div>
-                        <p>There are 5 pages included in this HexaShop Template and we are providing it to you for absolutely free of charge at our TemplateMo website. There are web development costs for us.</p>
-                        <p>If this template is beneficial for your website or business, please kindly <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.</p>
+                        <p>Discover a diverse collection of high-quality products designed to complement your lifestyle. From modern to classic styles, each item is carefully chosen to provide a special touch in your daily life. Explore our best selections and find products that are not only functional but also bring true satisfaction to your lifestyle.</p>
                         <div class="main-border-button">
                             <a href="products.html">Discover More</a>
                         </div>
@@ -610,7 +566,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-12">
                     <div class="section-heading">
                         <h2>Social Media</h2>
-                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                        <span>Follow our social media to see our newest collection</span>
                     </div>
                 </div>
             </div>
@@ -625,7 +581,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-01.jpg" alt="">
+                        <img src="productimage/PRADA TOTE BAG.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -636,7 +592,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-02.jpg" alt="">
+                        <img src="productimage/sm2.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -647,7 +603,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-03.jpg" alt="">
+                        <img src="productimage/SLINGBAG.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -658,7 +614,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-04.jpg" alt="">
+                        <img src="productimage/sosmed 1.webp" alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -669,7 +625,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-05.jpg" alt="">
+                        <img src="productimage/GUCCII 6.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-2">
@@ -680,7 +636,7 @@ https://templatemo.com/tm-571-hexashop
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
-                        <img src="assets/images/instagram-06.jpg" alt="">
+                        <img src="productimage/sosmed.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -759,9 +715,9 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-3">
                     <h4>Shopping &amp; Categories</h4>
                     <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
+                        <li><a href="#">Shoulder Bag Shopping</a></li>
+                        <li><a href="#">Tote Bag Shopping</a></li>
+                        <li><a href="chanel.blade.php">Sling Bag Shopping</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3">

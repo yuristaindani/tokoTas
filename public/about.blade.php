@@ -22,13 +22,7 @@
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
 
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
--->
     </head>
     
     <body>
@@ -76,7 +70,6 @@ https://templatemo.com/tm-571-hexashop
                                     <li><a href="#">Features Page 1</a></li>
                                     <li><a href="#">Features Page 2</a></li>
                                     <li><a href="#">Features Page 3</a></li>
-                                    <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Template Page 4</a></li>
                                 </ul>
                             </li>
                             <li class="scroll-to-section"><a href="index.html">Explore</a></li>
@@ -99,7 +92,7 @@ https://templatemo.com/tm-571-hexashop
                 <div class="col-lg-12">
                     <div class="inner-content">
                         <h2>About Our Company</h2>
-                        <span>Awesome, clean &amp; creative HTML5 Template</span>
+                        <span>Awesome, clean &amp; creative HTML5 </span>
                     </div>
                 </div>
             </div>

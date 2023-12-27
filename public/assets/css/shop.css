@@ -270,6 +270,11 @@ header
   line-height: 75px;
 }
 
+.header-area .logo img {
+  margin-top: 10px;
+}
+
+
 .background-header .nav {
   margin-top: 20px !important;
 }
@@ -642,13 +647,19 @@ header
     display: flex !important;
   }
 }
+.login-b{
+  background-color: rgb(192,192,192);
+}
 
+.register-b{
+  background-color: rgb(192,192,192);
+}
 
 /* 
 ---------------------------------------------
 banner
---------------------------------------------- 
-*/
+---------------------------------------------  */
+
 
 .main-banner {
   border-bottom: 3px dotted #eee;
@@ -701,23 +712,34 @@ banner
 
 .main-banner .right-content .right-first-image .thumb .inner-content {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
+  top: 15px;
+  right: 15px;
+  left: 15px;
+  bottom: 15px;
   text-align: center;
+  background-color: rgba(42, 42, 42, 0.5);
 }
 
 .main-banner .right-content .right-first-image .thumb .inner-content h4 {
-  color: #fff;
+  color: white;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 15px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%); 
 }
+
 
 .main-banner .right-content .right-first-image .thumb .inner-content span {
   font-size: 16px;
   color: #fff;
   font-style: italic;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%); 
 }
 
 .main-banner .right-content .right-first-image .thumb .hover-content {
@@ -1370,6 +1392,7 @@ Social
   padding-right: 15px;
 }
 
+
 #social .thumb {
   position: relative;
 }
@@ -1576,7 +1599,7 @@ Products Page
 .page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/products-page-heading.jpg);
+  background-image: url(https://i.pinimg.com/564x/85/23/f1/8523f19a6854e3e0e727f44cc46b2cc9.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1851,6 +1874,26 @@ Single Product Page
   background-color: #2a2a2a;
 }
 
+.total .main-border-button {
+  text-align: right;
+  color: #fff;
+}
+
+.total .main-border-button input[type="submit"] {
+  border: 1px solid #2a2a2a; /* Menambahkan border */
+  border-radius: 4px; /* Menambahkan border-radius untuk sudut yang lebih lembut */
+  color: #2a2a2a;
+  padding: 8px 16px; /* Sesuaikan padding sesuai kebutuhan */
+  cursor: pointer;
+}
+
+.total .main-border-button input[type="submit"]:hover {
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+
+
 .quantity {
   display: inline-block; }
  
@@ -1903,6 +1946,104 @@ Single Product Page
   .quantity.buttons_added .minus:focus,
  .quantity.buttons_added .plus:focus {
   outline: none; }
+
+
+.site-blocks-table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.product-thumbnail img {
+  max-width: 50px;
+  height: auto;
+  text-align: center;
+}
+
+.product-name {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.product-price,
+.product-quantity,
+.product-total {
+  text-align: center;
+}
+
+.quantity-container {
+  margin: 0 auto;
+}
+
+.product-remove {
+  text-align: center;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+}
+
+.btn-outline-black {
+  border: 1px solid black;
+  color: black;
+}
+
+h3.text-black {
+  color: black;
+}
+
+.text-black {
+  text-align: center;
+}
+
+.text-quantity {
+  color: black;
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.btn-lg {
+  padding: 20px 30px;
+  font-size: 18px;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Memperpanjang garis bawah di bawah Cart Totals */
+.col-md-12.text-center.border-bottom.mb-5 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Mengatur teks Cart Totals menjadi berdampingan */
+.col-md-12.text-center.border-bottom.mb-5 h3 {
+  display: inline-block;
+}
+
+/* Memperlebar area Cart Totals dan menengahkannya */
+.col-md-6.pl-5 {
+  text-align: center;
+  width: 100%;
+}
+
+/* Mengatur lebar tombol Proceed to Checkout */
+.btn.btn-black.btn-lg.py-3.btn-block {
+  width: 100%;
+  max-width: 100%;
+  background-color: #191a20;
+  
+}
 
 
 
